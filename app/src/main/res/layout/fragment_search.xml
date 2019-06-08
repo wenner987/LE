@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wenner.github.fragment.ss">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity1"
+        android:background="#EBE4E4">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:orientation="vertical"
+            android:background="@drawable/bk"
+            android:layout_margin="10dp">
+
+            <SearchView
+                android:id="@+id/searchView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:iconifiedByDefault="false"
+                android:queryHint="请输入搜索内容" />
+
+            <ListView
+                android:id="@+id/listView"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="vertical"
+            android:background="@drawable/bk"
+            android:layout_margin="10dp">
+
+            <Button
+                android:id="@+id/shijian1"
+                android:layout_width="match_parent"
+                android:layout_margin="1dp"
+                android:text="全书单词"
+                android:textSize="50px"
+                android:textColor="@color/coloraaa"
+                android:gravity="center_vertical"
+                android:background="@drawable/bk1"
+                android:drawableRight="@drawable/i_sss"
+                android:layout_height="50dp" />
+
+            <Button
+                android:id="@+id/shijian2"
+                android:layout_width="match_parent"
+                android:layout_margin="1dp"
+                android:text="还没学的"
+                android:textSize="50px"
+                android:textColor="@color/coloraaa"
+                android:gravity="center_vertical"
+                android:background="@drawable/bk1"
+                android:drawableRight="@drawable/i_sss"
+                android:layout_height="50dp" />
+            <Button
+                android:id="@+id/shijian3"
+                android:layout_width="match_parent"
+                android:layout_margin="1dp"
+                android:text="正在学的"
+                android:textSize="50px"
+                android:textColor="@color/coloraaa"
+                android:gravity="center_vertical"
+                android:background="@drawable/bk1"
+                android:drawableRight="@drawable/i_sss"
+                android:layout_height="50dp" />
+            <Button
+                android:id="@+id/shijian4"
+                android:layout_width="match_parent"
+                android:layout_margin="1dp"
+                android:text="学后牢记的"
+                android:textSize="50px"
+                android:textColor="@color/coloraaa"
+                android:gravity="center_vertical"
+                android:background="@drawable/bk1"
+                android:drawableRight="@drawable/i_sss"
+                android:layout_height="50dp" />
+            <Button
+                android:id="@+id/shijian5"
+                android:layout_width="match_parent"
+                android:layout_margin="1dp"
+                android:text="本来就会的"
+                android:textSize="50px"
+                android:textColor="@color/coloraaa"
+                android:gravity="center_vertical"
+                android:background="@drawable/bk1"
+                android:drawableRight="@drawable/i_sss"
+                android:layout_height="50dp" />
+            <Button
+                android:id="@+id/shijian6"
+                android:layout_width="match_parent"
+                android:layout_margin="1dp"
+                android:text="今日新学的"
+                android:textSize="50px"
+                android:textColor="@color/coloraaa"
+                android:gravity="center_vertical"
+                android:background="@drawable/bk1"
+                android:drawableRight="@drawable/i_sss"
+                android:layout_height="50dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

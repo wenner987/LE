@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wenner.github.fragment.glFragment">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:scrollbars="none">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#1200BCD4"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/shijian6"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/bk3"
+                android:drawableRight="@drawable/i_sss"
+                android:gravity="center_vertical"
+                android:text="> 我的设置"
+                android:textColor="#020202"
+                android:textSize="50px" />
+
+            <Button
+                android:id="@+id/shijian7"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/bk3"
+                android:drawableRight="@drawable/i_sss"
+                android:gravity="center_vertical"
+                android:text="> 书库设置"
+                android:textColor="#020202"
+                android:textSize="50px" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/shijian8"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/bk3"
+            android:drawableRight="@drawable/i_sss"
+            android:gravity="center_vertical"
+            android:text="> 提醒"
+            android:textColor="#020202"
+            android:textSize="50px" />
+
+        <Button
+            android:id="@+id/shijian9"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/bk3"
+            android:drawableRight="@drawable/i_sss"
+            android:gravity="center_vertical"
+            android:text="> 每日时长"
+            android:textColor="#020202"
+            android:textSize="50px" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/shijian10"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/bk3"
+                android:drawableRight="@drawable/i_sss"
+                android:gravity="center_vertical"
+                android:text="> 笔记管理"
+                android:textColor="#020202"
+                android:textSize="50px" />
+
+            <Button
+                android:id="@+id/shijian11"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/bk3"
+                android:drawableRight="@drawable/i_sss"
+                android:gravity="center_vertical"
+                android:text="> 学习应用"
+                android:textColor="#020202"
+                android:textSize="50px" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/shijian13"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/bk3"
+                android:drawableRight="@drawable/i_sss"
+                android:gravity="center_vertical"
+                android:text="> 词库设置"
+                android:textColor="#020202"
+                android:textSize="50px" />
+
+            <Button
+                android:id="@+id/shijian14"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/bk3"
+                android:drawableRight="@drawable/i_sss"
+                android:gravity="center_vertical"
+                android:text="> 自定库"
+                android:textColor="#020202"
+                android:textSize="50px" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/shijian15"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/bk3"
+            android:drawableRight="@drawable/i_sss"
+            android:gravity="center_vertical"
+            android:text="> vip设置"
+            android:textColor="#020202"
+            android:textSize="50px" />
+
+        <Button
+            android:id="@+id/shijian16"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/bk3"
+            android:drawableRight="@drawable/i_sss"
+            android:gravity="center_vertical"
+            android:text="> 搜索设置"
+            android:textColor="#020202"
+            android:textSize="50px" />
+
+    </LinearLayout>
+    </ScrollView>
+</FrameLayout>
